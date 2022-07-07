@@ -11,9 +11,9 @@ ___
 
 `<li></li>`: list의 약자로, 줄바꿈을 해주고 목록으로 나타낸다.
 
-`<ul></ul>`: unordered list의 약자로, <li>태그를 감싸주고 grouping 해준다. 순서가 필요 없는 것들을 묶어준다.
+`<ul></ul>`: unordered list의 약자로, `<li>`태그를 감싸주고 grouping 해준다. 순서가 필요 없는 것들을 묶어준다.
 
-`<ol></ol>`: ordered list의 약자로, <li>태그를 감싸주고 grouping 해준다. 순서가 필요한 것들을 묶어준다.
+`<ol></ol>`: ordered list의 약자로, `<li>`태그를 감싸주고 grouping 해준다. 순서가 필요한 것들을 묶어준다.
 
 `<title>원하는 제목</title>`: 웹 사이트 제목을 나타냄.
 
