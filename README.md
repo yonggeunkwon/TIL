@@ -17,3 +17,10 @@ ___
 
 **Crawling**
 * [crawling_summary](https://github.com/yonggeunkwon/TIL/blob/main/Crawling/crawling_summary.md)
+
+**Python Study**
+* [cleancode_python](https://github.com/yonggeunkwon/TIL/tree/main/cleancode_python)
+* [python_code_review](https://github.com/yonggeunkwon/TIL/tree/main/python_code_review)
+
+**Data Handling**
+* [pandas](https://github.com/yonggeunkwon/TIL/tree/main/pandas)
