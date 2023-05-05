@@ -1,18 +1,14 @@
 import numpy as np
 
 def vector_size_check(*vector_variables):
-    vector_size = []
-    for vector_variable in vector_variables:
-        vector_size.append(len(vector_variable))
-    print(set(vector_size))
-    if len(list(set(vector_size))) == 1:
-        return True
-    else:
-        return False
+    vector_size = [len(vector_variable) for vector_variable in vector_variables]
+    return True if len(set(vector_size)) == 1 else False
 
 
 def vector_addition(*vector_variables):
-    return None
+    if len(set([len(vector_variable) for vector_variable in vector_variables])) != 1:
+        raise ArithmeticError("ArithmeticError")
+    return [sum(vector_variable) for vector_variable in zip(*vector_variables)]
 
 
 def vector_subtraction(*vector_variables):
@@ -22,11 +18,12 @@ def vector_subtraction(*vector_variables):
 
 
 def scalar_vector_product(alpha, vector_variable):
-    return None
+    return [alpha * num for num in vector_variable]
 
 
 def matrix_size_check(*matrix_variables):
-    return None
+    matrix_size = [len(matrix_variable) for matrix_variable in matrix_variables]
+    return True if len(set(matrix_size)) == 1 else False
 
 
 def is_matrix_equal(*matrix_variables):
