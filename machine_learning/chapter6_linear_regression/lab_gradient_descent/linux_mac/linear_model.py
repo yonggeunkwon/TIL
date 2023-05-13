@@ -29,11 +29,12 @@ class LinearRegressionGD(object):
         predictions = self.hypothesis_function(X, theta)
         gradient = []
 
-        for i in range(theta.size):
-            partial_marginal = X[:, i]
-            errors_xi = (predictions - y) * partial_marginal
-            gradient.append((1 / m) * errors_xi.sum())
-        return np.array(gradient)
+        # for i in range(theta.size):
+        #     partial_marginal = X[:, i]
+        #     errors_xi = (predictions - y) * partial_marginal
+        #     gradient.append((1 / m) * errors_xi.sum())
+        # return np.array(gradient)
+        return (1 / m) * (X.dot(theta) - y).dot(X)
 
     def fit(self, X, y):
         self._new_X = X
@@ -47,9 +48,8 @@ class LinearRegressionGD(object):
         for epoch in range(self._epochs):
 
             gradient = self.gradient(self._new_X, y, theta).flatten()
-
-            for i in range(theta.size):
-                theta = theta - self._eta0 * gradient
+    
+            theta = theta - self._eta0 * gradient
 
             if epoch % 100 == 0:
                 self._w_history.append(theta)
