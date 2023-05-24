@@ -1,9 +1,11 @@
-# TIL
-Today I Learned
+# :books: TIL
+
+>오늘 공부 오늘 기록
 ___
 
-### 목차
-**git & github**
+## 목차
+___
+**git & gitHub**
 * [git_summary](https://github.com/yonggeunkwon/TIL/blob/main/git%20%26%20github/git_summary.md)  
 
 **HTML**
@@ -22,5 +24,11 @@ ___
 * [cleancode_python](https://github.com/yonggeunkwon/TIL/tree/main/cleancode_python)
 * [python_code_review](https://github.com/yonggeunkwon/TIL/tree/main/python_code_review)
 
-**Data Handling**
-* [pandas](https://github.com/yonggeunkwon/TIL/tree/main/pandas)
+**ML**
+* [numpy](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter3_numpy)
+* [time-series](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter4_time-series)
+* [Feature Engineering](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter5_feature_engineering)
+* [Linear Regression](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter6_linear_regression)
+* [Linear Regression extended](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter7_linear_regression_extended)
+* [Logistic Regression](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter8_logistic_regression)
+* [Logistic Regression Extended](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter9_logistics_Regression_extended)
