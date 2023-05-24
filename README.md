@@ -24,6 +24,12 @@ ___
 * [cleancode_python](https://github.com/yonggeunkwon/TIL/tree/main/cleancode_python)
 * [python_code_review](https://github.com/yonggeunkwon/TIL/tree/main/python_code_review)
 
+**aws**
+* [aws 기초](https://github.com/yonggeunkwon/TIL/tree/main/aws)
+
+**Docker**
+* [Docker 기초](https://github.com/yonggeunkwon/TIL/tree/main/docker)
+
 **ML**
 * [numpy](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter3_numpy)
 * [time-series](https://github.com/yonggeunkwon/TIL/tree/main/machine_learning/chapter4_time-series)
